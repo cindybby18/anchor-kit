@@ -8,6 +8,7 @@
 export * from './types';
 
 export { AnchorInstance, createAnchor, makeSqliteDbUrlForTests } from './core/factory';
+export type { CreateAnchorOptions } from './core/factory';
 export * from './core/errors';
 export { LocalKeypairSigner } from './services/stellar-signer.ts';
 export type { StellarTransactionSigner } from './services/stellar-signer.ts';
